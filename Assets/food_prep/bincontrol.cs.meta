@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 768a35d888fa191499aef82c4fdfea55
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bottombunObj: {fileID: 2289633394732933586, guid: 75f19214c5c06ca4688d322de7177e27,
+      type: 3}
+  - topbunObj: {fileID: 8722647252666341785, guid: 3128a296f3be17c47b191f3a113ea9ae,
+      type: 3}
+  - burgerObj: {fileID: 7070737853739581248, guid: 03d9196bb09900f4a9d8b65213847711,
+      type: 3}
+  - backrollObj: {fileID: 8248351992344144434, guid: b23e09d180b0a3748919c9677afd2cc6,
+      type: 3}
+  - frontrollObj: {fileID: 6244527459139623487, guid: 5ae7020e8e6e5784e80ad460b825fd4e,
+      type: 3}
+  - hotdogObj: {fileID: 2008702080912929307, guid: 705ac33020f25a44fa4b61db1a54cc77,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

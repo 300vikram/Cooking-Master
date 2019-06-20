@@ -1,0 +1,22 @@
+1. click the left mouse button for playing as the first player
+2. Click the Right mouse button for playing as the Second player
+3. Hover over the Game object with the mouse and press "Space Bar" In oreder to Delete the object(!Do not unnecessary 
+   press SpaceBar)
+4. The customer stay time is indicated with a time bar on his head, customer stays as long as it stays green and the
+   customer disappear after the bar turns complete red.
+5. Both the players are Awarded 50 sec inorder to complete the game
+6. I have not set the GameOver Text yet.
+7. If you give the customer wrong order then thre are -2 points Awarded. 
+8. If you give the customer right order then 10 points are awarded.
+9. Please Avoid pressing the space bar other then for deivering the order, this creates some bugs which I have to fix soon.
+
+** for the simulation check purpose I have preset the customer orders
+
+(CUSTOMER(1) = Burger)
+(CUSTOMER(2) = Burger)
+(CUSTOMER(3) = Hotdog)
+(CUSTOMER(4) = Burger)
+(CUSTOMER(5) = Burger)
+(CUSTOMER(6) = Hotdog)
+
+**just in case you want to check the score board
