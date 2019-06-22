@@ -50,26 +50,28 @@ public class patron : MonoBehaviour
 
     private void OnMouseOver()
     {
-        if ((gamePlay.deletefood == "y") && (gamePlay.currentMeat == orderedMeat))
-        {
-        
+            if ((gamePlay.deletefood == "y") && (gamePlay.currentMeat == orderedMeat))
+            {
+
             /*
             movetoppings.mousecontrolled = "n";
             cookfood.mousecontrolled = "n";
             movesandwich.mousecontrolled = "n";
             */
 
-            Destroy(gameObject);
-            gamePlay.deletefood = "n";
-            gamePlay.score1 += 10;
-        }
+                Destroy(gameObject);
+                gamePlay.deletefood = "n";
+                gamePlay.score1 += 10;
+            }
 
-        if((gamePlay.deletefood == "y") && (gamePlay.currentMeat != orderedMeat))
-        {
-            Destroy(gameObject);
-            gamePlay.deletefood = "n";
-            gamePlay.score1 -= 2;
-        }
+            if ((gamePlay.deletefood == "y") && (gamePlay.currentMeat != orderedMeat))
+            {
+                Destroy(gameObject);
+                gamePlay.deletefood = "n";
+                gamePlay.score1 -= 2;
+            }
+        
+
 
         Debug.Log(gamePlay.deletefood);
     }

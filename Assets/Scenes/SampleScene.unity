@@ -1003,7 +1003,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 286073298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05219415c9dcec14eb75368f6a3eb4a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 74de20f19d4359f4aa8a661258abd257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   orderedMeat: hamburger
@@ -1444,7 +1444,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 493687578}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05219415c9dcec14eb75368f6a3eb4a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 74de20f19d4359f4aa8a661258abd257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   orderedMeat: hamburger
@@ -2305,7 +2305,7 @@ GameObject:
   - component: {fileID: 732881605}
   - component: {fileID: 732881604}
   - component: {fileID: 732881602}
-  - component: {fileID: 732881603}
+  - component: {fileID: 732881606}
   m_Layer: 0
   m_Name: diner cop (5)
   m_TagString: Untagged
@@ -2398,23 +2398,6 @@ PolygonCollider2D:
       - {x: 1.4, y: -1.31}
       - {x: 1.38, y: -1.2099999}
       - {x: 1.31, y: -1.1}
---- !u!114 &732881603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732881601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05219415c9dcec14eb75368f6a3eb4a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  orderedMeat: hotdog
-  slider: {fileID: 0}
-  maxTime: 30
-  timeLeft: 0
-  sliider: {fileID: 0}
 --- !u!212 &732881604
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2478,6 +2461,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &732881606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732881601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74de20f19d4359f4aa8a661258abd257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orderedMeat: hotdog
+  slider: {fileID: 0}
+  maxTime: 30
+  timeLeft: 0
+  sliider: {fileID: 0}
 --- !u!1 &756025791
 GameObject:
   m_ObjectHideFlags: 0
