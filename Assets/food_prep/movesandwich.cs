@@ -39,35 +39,10 @@ public class movesandwich : MonoBehaviour
 
         if ((gamePlay.deletefood == "y") && (mousecontrolled == "y"))
         {
-            /*
-            // test part
-            if (gamePlay.selectedSlot == 1)
-            {
-                gamePlay.cuttingbords1 = "empty";
-
-            }
-            if (gamePlay.selectedSlot == 2)
-            {
-                gamePlay.cuttingbords2 = "empty";
-
-            }
-            Debug.Log("In test");
-            */
-
-           
-
+            
             gamePlay.selectedSandwich = 0;
             Destroy(gameObject);
             mousecontrolled = "n";
-
-            
-            
-            
-
-            //test part2
-            //gamePlay.deletefood = "n"
-
-
         }
     }
 

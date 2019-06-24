@@ -39,12 +39,7 @@ public class movetoppings : MonoBehaviour
             //mousecontrolled = "n";
         }
 
-        /*
-        if (gamePlay.deletefood == "n" && patron.helper == "n")
-        {
-            occupiedSlot = 99;
-        }
-        */
+        
 
     }
 
