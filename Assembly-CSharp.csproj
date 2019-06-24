@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\food_prep\trash.cs" />
     <Compile Include="Assets\scripts\bincontrol.cs" />
     <Compile Include="Assets\scripts\cookfood.cs" />
     <Compile Include="Assets\scripts\gamePlay.cs" />
@@ -71,6 +70,7 @@
     <Compile Include="Assets\scripts\sliderScript.cs" />
     <Compile Include="Assets\scripts\timep1.cs" />
     <Compile Include="Assets\scripts\timep2.cs" />
+    <Compile Include="Assets\scripts\trash.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/91913/Documents/Salad-Chef/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

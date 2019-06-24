@@ -2,6 +2,7 @@
 2. Click the Right mouse button for playing as the Second player
 3. Hover over the Game object with the mouse and press "Space Bar" In oreder to Delete the object(!Do not unnecessary 
    press SpaceBar)
+   Press the R key to Reset the Destroy of Gameobject in case of any problem.
 4. The customer stay time is indicated with a time bar on his head, customer stays as long as it stays green and the
    customer disappear after the bar turns complete red.
 5. Both the players are Awarded 50 sec inorder to complete the game

@@ -45,6 +45,12 @@ public class gamePlay : MonoBehaviour
             Debug.Log("SPACE button");
         }
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            deletefood = "n";
+            Debug.Log("Reset DeleteFood");
+        }
+
         scorep1.text = score1.ToString("0");                    // updating the scores
         scorep2.text = score2.ToString("0");
         Debug.Log(scorep2.text);
