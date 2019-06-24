@@ -60,17 +60,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\food_prep\bincontrol.cs" />
-    <Compile Include="Assets\food_prep\cookfood.cs" />
-    <Compile Include="Assets\food_prep\gamePlay.cs" />
-    <Compile Include="Assets\food_prep\movesandwich.cs" />
-    <Compile Include="Assets\food_prep\movetoppings.cs" />
-    <Compile Include="Assets\food_prep\patron.cs" />
-    <Compile Include="Assets\food_prep\patron2.cs" />
-    <Compile Include="Assets\food_prep\sliderScript.cs" />
-    <Compile Include="Assets\food_prep\timep1.cs" />
-    <Compile Include="Assets\food_prep\timep2.cs" />
     <Compile Include="Assets\food_prep\trash.cs" />
+    <Compile Include="Assets\scripts\bincontrol.cs" />
+    <Compile Include="Assets\scripts\cookfood.cs" />
+    <Compile Include="Assets\scripts\gamePlay.cs" />
+    <Compile Include="Assets\scripts\movesandwich.cs" />
+    <Compile Include="Assets\scripts\movetoppings.cs" />
+    <Compile Include="Assets\scripts\patron.cs" />
+    <Compile Include="Assets\scripts\patron2.cs" />
+    <Compile Include="Assets\scripts\sliderScript.cs" />
+    <Compile Include="Assets\scripts\timep1.cs" />
+    <Compile Include="Assets\scripts\timep2.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/91913/Documents/Salad-Chef/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
