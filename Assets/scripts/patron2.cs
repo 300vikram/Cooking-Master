@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class patron2 : MonoBehaviour
 {
-    // This is the script for the customer1  and its Health slider(The time for which customer waits)
+    // This is the script for the customer2  and its Health slider(The time for which customer waits)
 
     public string orderedMeat = "hamburger";
 
@@ -52,13 +52,6 @@ public class patron2 : MonoBehaviour
     {
         if ((gamePlay.deletefood == "y") && (gamePlay.currentMeat == orderedMeat))
         {
-
-            /*
-            movetoppings.mousecontrolled = "n";
-            cookfood.mousecontrolled = "n";
-            movesandwich.mousecontrolled = "n";
-            */
-
             Destroy(gameObject);
             gamePlay.deletefood = "n";
             gamePlay.score2 += 10;

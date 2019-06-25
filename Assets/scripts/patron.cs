@@ -52,13 +52,6 @@ public class patron : MonoBehaviour
     {
             if ((gamePlay.deletefood == "y") && (gamePlay.currentMeat == orderedMeat))
             {
-
-            /*
-            movetoppings.mousecontrolled = "n";
-            cookfood.mousecontrolled = "n";
-            movesandwich.mousecontrolled = "n";
-            */
-
                 Destroy(gameObject);
                 gamePlay.deletefood = "n";
                 gamePlay.score1 += 10;
